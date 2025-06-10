@@ -1,0 +1,134 @@
+*{
+  font-family: TAN Mon Cheri;
+}
+ .u-section-1 {
+  background: linear-gradient(189deg, rgba(8, 94, 174, 0.488),#0806b8, #000000);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+ 
+ 
+ .titulo-centrado {
+  text-align: center;
+  margin: 40px 0 20px 0; /* Espaciado arriba y abajo */
+  color: #fff;           /* O el color que prefieras */
+  font-size: 2.5rem;     /* Tamaño del texto */
+  font-weight: bold;
+  font-family: TAN Mon Cheri;
+  position: relative;
+  animation: mover-titulo 2s ease-in-out;
+}
+
+@keyframes mover-titulo {
+  from {
+    left: -100vw;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+body {
+  background:linear-gradient(189deg, rgba(8, 94, 174, 0.488),#0806b8, #000000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 720px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 1034px;
+  height: 654px;
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  margin: 33px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 661px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 940px;
+    height: 595px;
+    transition-duration: 0.5s;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 522px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 456px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 408px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 342px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 428px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 215px;
+    margin-bottom: 60px;
+  }
+} .u-section-2 {
+  background: linear-gradient(189deg,#0806b8, #000000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 654px;
+}
+
+.swiper {
+  width: 100%;
+  margin-top: 40px;
+  
+}
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 10px;
+
+  
+}
+.swiper-slide img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 0 auto;
+
+}
+.footer-derechos {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
